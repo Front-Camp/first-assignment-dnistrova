@@ -11,7 +11,9 @@
  * sumElements([Infinity, NaN, 1]); // 1
  */
 const sumElements = arr => {
-  /* your logic here...*/
+  let sum = 0;
+  for (let arg of arr) sum += arg;
+  return sum;
 };
 
 export default sumElements;
